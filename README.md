@@ -1,2 +1,2 @@
 # Contact-List
-A contact list mad with HTML and CSS
+A contact list made with HTML and CSS
