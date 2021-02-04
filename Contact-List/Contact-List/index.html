@@ -2,28 +2,57 @@
 <html lang="pt-br">
     <head>
         <link rel="stylesheet" href="./css/stylesheet.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
     <body>
-        <div class="navigation">
-            <header>
-                <h1>Agenda de Contatos.</h1>
-                <nav>
-                    <ul>
-                        <li><a href="./form/form.html" target="_blank">Novo Contato</a></li>
-                        <li><a href="#">Ver Contato</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+        <div class="container">
 
-        <div class="frame">
-            <img src="./img/phone-img.jpeg" alt="Woman with a phone">
-            <h2>Lorem, ipsum dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ad unde deleniti architecto ab vel? Illum, facere. Ratione, sed. Delectus officiis dolorum quas id velit, laborum provident sed doloremque quia.</p> 
+            <div class="form-container">
+
+                <div class="header-form">
+                    <h1>Create Account</h1>
+                    <img src="./img/google.png" alt="Google icon" class="img-icon">
+                    <img src="./img/facebook.png" alt="Facebook icon" class="img-icon">
+                    <img src="./img/twitter.png" alt="Twitter icon" class="img-icon">
+                    <img src="./img/vk.png" alt="VK icon" class="img-icon">
+                    <p>or use your email for registration:</p>
+                </div>
+                
+                <div class="body-form">
+                    <form action="" method="post">
+                        <div class="input-style">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                        </div>
+    
+                        <div class="input-style">
+                            <input type="text" name="email" id="email"  placeholder="Email">
+                        </div>
+    
+                        <div class="input-style">
+                            <input type="password" name="password" id="password" placeholder="Password">
+                        </div>
+                        
+                        <div class="checkbox-style">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <label for="terms-privacy-policy">I agree to the <span class="word-style"> Terms</span> and <span class="word-style">Privacy Policy</span></label>
+                        </div>
+                        
+                        <div class="buttons">
+                            <button class="button-sing-in">Sign Up</button>
+                            <button class="button-sing-up">Sign In</button>
+                        </div>
+                    </form>
+                    
+                    <div class="img-style">
+                        <img src="./img/img.jpg" alt="">
+                    </div>
+
+                </div>
+
+                
+            </div>
         </div>
         
     </body>
