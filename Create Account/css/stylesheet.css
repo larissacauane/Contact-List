@@ -85,7 +85,7 @@
     margin: 15% 0 0 3%;
 }
 
-.button-sing-in {
+.button-sing-up {
     width: 6rem;
     height: 2.5rem;
     outline: 0;
@@ -98,14 +98,14 @@
     
 }
 
-.button-sing-in:hover {
+.button-sing-up:hover {
     background-color:white;
     border: rgb(254, 84, 84) 1px solid;
     color: rgb(254, 84, 84);
     
 }
 
-.button-sing-up {
+.button-sing-in {
     margin: 0 0 0 16% ;
     width: 6rem;
     height: 2.5rem;
@@ -118,7 +118,7 @@
     color: rgb(254, 84, 84);
 }
 
-.button-sing-up:hover {
+.button-sing-in:hover {
     background-color: rgb(254, 84, 84);
     border: rgb(254, 84, 84);
     color: white;

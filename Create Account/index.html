@@ -36,12 +36,14 @@
                         
                         <div class="checkbox-style">
                             <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="terms-privacy-policy">I agree to the <span class="word-style"> Terms</span> and <span class="word-style">Privacy Policy</span></label>
+                            <label for="checkbox">I agree to the <span class="word-style"> Terms</span> and <span class="word-style">Privacy Policy</span></label>
                         </div>
                         
                         <div class="buttons">
-                            <button class="button-sing-in">Sign Up</button>
-                            <button class="button-sing-up">Sign In</button>
+
+                            <input type="button" class="button-sing-up" value="Sign Up" onclick="validate()">
+                            <input type="button" class="button-sing-in" value="Sign In">
+                            
                         </div>
                     </form>
                     
@@ -55,5 +57,6 @@
             </div>
         </div>
         
+        <script src="./js/script.js"></script>
     </body>
 </html>
