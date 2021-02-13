@@ -1,4 +1,4 @@
-# Formulário Para Criar Conta
+# Formulário para Criar Conta
 ## :rocket: Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 * HTML5
